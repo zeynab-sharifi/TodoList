@@ -1,3 +1,6 @@
 @use '_variables';
 @use '_mixins';
-@import "_HeaderTodo"
+@import "_HeaderTodo";
+@import '_Template';
+@import '_NavbarTodo';
+@import'_DateToday';

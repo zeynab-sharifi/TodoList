@@ -11,6 +11,10 @@ ul li {
   list-style-type: none !important;
 }
 
+.router-link-active, .router-link-exact-active, .nav-link:hover {
+  color: #0d6efd !important;
+}
+
 .header-todo {
   background: #3498db;
   padding: 1rem 1.5rem;
@@ -18,8 +22,44 @@ ul li {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 .header-todo h1 {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.5rem;
+}
+
+.body-todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-todo-list .todo-section {
+  width: 80%;
+  padding: 1rem;
+}
+.body-todo-list .todo-section .box-todo-list {
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-date-todo {
+  padding: 1rem;
+}
+.navbar-date-todo .navbar-expand-lg {
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+.date-today-todo {
+  display: flex;
+}
+.date-today-todo .day {
+  font-weight: 600;
+  font-size: 55px;
+}
+.date-today-todo .month-year {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0.5rem 0.75rem;
 }
 
 /*# sourceMappingURL=main.css.map */

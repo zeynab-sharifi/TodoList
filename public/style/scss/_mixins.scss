@@ -9,3 +9,7 @@ a:hover{
 ul li{
     list-style-type: none !important;
 }
+
+.router-link-active,.router-link-exact-active,.nav-link:hover{
+    color: variables.$blue2 !important;
+}

@@ -1,0 +1,12 @@
+.date-today-todo{
+    display: flex;
+    .day{
+        font-weight: 600;
+        font-size: 55px;
+    }
+    .month-year{
+        font-weight: 400;
+        font-size: 20px;
+        margin: .5rem .75rem;
+    }
+}
