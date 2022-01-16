@@ -5,7 +5,7 @@
 </template>
 <script>
 
-import HeaderTodo from "./components/Header-todo.vue";
+import HeaderTodo from "./components/HeaderTodo.vue";
 
   export default{
     name:'App',
