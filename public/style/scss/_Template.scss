@@ -3,13 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .todo-section{
+    flex-direction: column;
+    padding: 1rem;
+    .box-todo-list{
         width: 80%;
         padding: 1rem;
-        .box-todo-list{
-            padding: 1rem;
-            background: variables.$white;
-            box-shadow: 0 1px 2px rgb(0, 0, 0, .15);
-        }
+        background: variables.$white;
+        box-shadow: 0 1px 2px rgb(0, 0, 0, .15);
+        
     }
 }

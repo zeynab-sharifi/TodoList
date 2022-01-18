@@ -30,12 +30,11 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.body-todo-list .todo-section {
-  width: 80%;
+  flex-direction: column;
   padding: 1rem;
 }
-.body-todo-list .todo-section .box-todo-list {
+.body-todo-list .box-todo-list {
+  width: 80%;
   padding: 1rem;
   background: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);

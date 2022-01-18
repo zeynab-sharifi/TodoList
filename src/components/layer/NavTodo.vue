@@ -10,3 +10,22 @@
                         </ul>
                     </nav>
 </template>
+<script>
+    export default{
+        // :class="{selected:visibility=='/complieted  '}" 
+        // :class="{selected:visibility=='/incomplieted'}" 
+
+        // filters = {
+        //     incomplieted:function(todos){
+        //         return todos.filter(function(todo){
+        //             return !todo.complieted;
+        //         })
+        //     },
+        //     complieted:function(todos){
+        //         return todos.filter(function(todo){
+        //             return todo.complieted;
+        //         })
+        //     }
+        // }
+    }
+</script>

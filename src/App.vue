@@ -6,7 +6,7 @@
 <script>
 
 import HeaderTodo from "./components/HeaderTodo.vue";
-import Template from "./components/Template.vue";
+import Template from "./components/page/Template.vue";
   export default{
     name:'App',
     components:{
