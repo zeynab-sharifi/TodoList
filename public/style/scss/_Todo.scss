@@ -1,0 +1,25 @@
+@use "_variables";
+.todo-show{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid variables.$black2;
+    padding: 1rem;
+    .btn-edit-delete{
+        display: flex;
+        justify-content: end;
+        margin: 0 2rem;
+        a{
+            margin: 0 2rem;
+            .btn-delete{
+                color: red;
+            }
+            .btn-edit{
+                color: variables.$blue2;
+            }
+        }
+    }
+    .text-todo{
+        width: 60%;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,24 @@
+@use "_variables";
+
+.modal-todos{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    .input-modal-todos{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid variables.$black2;
+        margin: 1rem .5rem;
+    }
+    .btn-modal-todos{
+        display: flex;
+        justify-content: end;
+        .btn-modal-blue{
+            color: variables.$blue2;
+        }
+        .btn-modal-black{
+            color: variables.$black;
+        }
+    }
+    
+}

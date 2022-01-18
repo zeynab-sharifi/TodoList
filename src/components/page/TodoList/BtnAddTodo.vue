@@ -7,20 +7,25 @@
 </div>
 
 <!-- modal  -->
-<div class="modal fade" id="AddTodo" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="AddTodoLabel" aria-hidden="true">
+<div class="modal-todos">
+  <div class="modal fade" id="AddTodo" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="AddTodoLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
         <h4 class="modal-title" id="AddTodoLabel">New Todo</h4>
         <p>Please write content of in input below!</p>
-        <input type="text" v-model="todoText" placeholder="Add your new todo">
-        
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" v-on:click="submit">Save</button>
-      </div>
+        <input type="text" class="input-modal-todos" v-model="todoText" placeholder="Do something!">
+        <div class="btn-modal-todos">
+           <button type="button" class="btn btn-modal-black" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-modal-blue" data-bs-dismiss="modal" v-on:click="submit">Save</button>
+        </div>
+
+         </div>
     </div>
   </div>
 </div>
+</div>
+
 </template>
 <script>
   export default{

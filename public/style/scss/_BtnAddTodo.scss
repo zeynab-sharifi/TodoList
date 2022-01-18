@@ -1,0 +1,11 @@
+@use "_variables";
+
+.modal-add-todo{
+    position: absolute;
+    margin: 4rem 0 0;
+    top: 100%;
+    left: 100%;
+    button{
+        border-radius: 50%;
+    }
+}

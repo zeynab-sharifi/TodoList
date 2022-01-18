@@ -31,13 +31,14 @@ ul li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 7rem 0;
 }
 .body-todo-list .box-todo-list {
-  width: 80%;
   padding: 1rem;
   background: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  position: relative;
 }
 
 .navbar-date-todo {
@@ -59,6 +60,63 @@ ul li {
   font-weight: 400;
   font-size: 20px;
   margin: 0.5rem 0.75rem;
+}
+
+.modal-todos {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.modal-todos .input-modal-todos {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #222;
+  margin: 1rem 0.5rem;
+}
+.modal-todos .btn-modal-todos {
+  display: flex;
+  justify-content: end;
+}
+.modal-todos .btn-modal-todos .btn-modal-blue {
+  color: #0d6efd;
+}
+.modal-todos .btn-modal-todos .btn-modal-black {
+  color: black;
+}
+
+.todo-show {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #222;
+  padding: 1rem;
+}
+.todo-show .btn-edit-delete {
+  display: flex;
+  justify-content: end;
+  margin: 0 2rem;
+}
+.todo-show .btn-edit-delete a {
+  margin: 0 2rem;
+}
+.todo-show .btn-edit-delete a .btn-delete {
+  color: red;
+}
+.todo-show .btn-edit-delete a .btn-edit {
+  color: #0d6efd;
+}
+.todo-show .text-todo {
+  width: 60%;
+  overflow: hidden;
+}
+
+.modal-add-todo {
+  position: absolute;
+  margin: 4rem 0 0;
+  top: 100%;
+  left: 100%;
+}
+.modal-add-todo button {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
